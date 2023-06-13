@@ -1,7 +1,7 @@
 # Initializing the airline management system
 import sqlite3
 
-conn = sqlite3.connect('airplanes.db', password='D*#g6kY9F$B5')
+conn = sqlite3.connect('airplanes.db', password='REDACTED')
 
 # Create cursor object to execute SQL statements
 cursor = conn.cursor()
